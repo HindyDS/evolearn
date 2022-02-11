@@ -145,12 +145,10 @@ For example:
                                                     ExchangeMutation,
                                                     ShiftMutation
                                                     )
-
 >>> from evolearn.feature_selection.environment import (AdaptiveReproduction,
                                                     AdaptiveMutation,
                                                     Elitism
                                                     )
-
 >>> from evolearn.feature_selection.genetic_feature_selection import GeneticFeatureSelection
 >>> from sklearn.ensemble import RandomForestRegressor
 >>> opt = GeneticFeatureSelection(
