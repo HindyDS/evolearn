@@ -17,9 +17,5 @@ Contents
    :maxdepth: 1
    :caption: Contents:
 
-   Installation Guide <Installation-Guide>
    Quick Start <Quick-Start>
    Python Quick Start <Python-Intro>
-   Features <Features>
-   Experiments <Experiments>
-   Parameters <Parameters>
