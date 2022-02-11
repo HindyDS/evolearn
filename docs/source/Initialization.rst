@@ -1,35 +1,16 @@
-optimization
-==============
+evolearn API
+================
 
+.. currentmodule:: initialization
 
-Initialization
---------------
+optimization API
+------------------
 
+.. autosummary::
+    :toctree: pythonapi/
 
-Evaluation
-----------
-
-
-Selection
----------
-
-Mating
--------
-
-
-Reproduction
-------------
-
-
-Mutation
----------
-
-
-Environment
-------------
-
-
-Genetic Optimization
----------------------
-
-
+    Genes
+   
+.. currentmodule:: evaluation  
+    
+    FitnessFunction
