@@ -16,4 +16,10 @@ Contents
 .. toctree::
 
    usage
-   api
+   Initialization
+   Fitness Evaluation
+   Selection
+   Mating
+   Reproduction
+   Mutation
+   Environment
