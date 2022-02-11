@@ -7,6 +7,6 @@ initialization
 ------------------
 
 .. autosummary::
-    :toctree: pythonapi/
+    :toctree: Optimization/
 
     Genes
