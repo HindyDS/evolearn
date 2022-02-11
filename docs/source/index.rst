@@ -16,10 +16,5 @@ Contents
 .. toctree::
 
    usage
-   Initialization
-   Fitness Evaluation
-   Selection
-   Mating
-   Reproduction
-   Mutation
-   Environment
+   optimization
+   feature_
