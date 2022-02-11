@@ -6,15 +6,20 @@ evolearn is a Python library for GA tools for machinea learning.
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
-.. note::
-
-   This project is under active development.
+.. image:: ./logo/evolearn.png
+   :align: center
+   :width: 600
+   :alt: evolearn logo.
 
 Contents
 --------
-
 .. toctree::
+   :maxdepth: 1
+   :caption: Contents:
 
-   usage
-   optimization
-   feature_
+   Installation Guide <Installation-Guide>
+   Quick Start <Quick-Start>
+   Python Quick Start <Python-Intro>
+   Features <Features>
+   Experiments <Experiments>
+   Parameters <Parameters>
