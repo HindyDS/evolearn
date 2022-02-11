@@ -169,10 +169,8 @@ For example:
        elitism=None,
        adaptive_mutation=None
    )
-
 >>> opt.fit(X_train, y_train)
 >>> print(opt.best_fitness_)
 >>> print(opt.best_params_)
-
 -2797.7245589631652
 {'age': True, 'sex': False, 'bmi': True, 'children': True, 'smoker': True, 'region': False}
