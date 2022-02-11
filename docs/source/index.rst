@@ -1,7 +1,7 @@
 .. image:: ./logo/evolearn.png
    :align: center
    :width: 600
-   :alt: Light Gradient Boosting Machine logo.
+   :alt: evolearn logo.
 
 |
 
