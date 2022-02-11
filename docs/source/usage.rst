@@ -146,7 +146,7 @@ For example:
                                                     ShiftMutation
                                                     )
 
-from evolearn.feature_selection.environment import (AdaptiveReproduction,
+>>> from evolearn.feature_selection.environment import (AdaptiveReproduction,
                                                     AdaptiveMutation,
                                                     Elitism
                                                     )
