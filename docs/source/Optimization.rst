@@ -3,14 +3,10 @@ evolearn API
 
 .. currentmodule:: initialization
 
-optimization API
+initialization
 ------------------
 
 .. autosummary::
     :toctree: pythonapi/
 
     Genes
-   
-.. currentmodule:: evaluation  
-    
-    FitnessFunction
