@@ -12,3 +12,5 @@
    Quick Start <Quick-Start>
    Optimization <Optimization>
    Feature Selection <Feature-Selection>
+   Warnings <Warnings>
+   
