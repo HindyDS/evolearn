@@ -2,8 +2,8 @@
    :maxdepth: 10
    :caption: Contents:
 
-evolearn API
-================
+Genetic Optimization
+====================
 
 Initialization
 ---------------
