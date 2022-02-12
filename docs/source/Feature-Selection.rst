@@ -3,7 +3,7 @@ evolearn API
 
 .. currentmodule:: initialization
 
-optimization API
+
 ------------------
 
 .. autosummary::
