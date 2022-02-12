@@ -79,26 +79,6 @@ For example:
           adaptive_mutation=AdaptiveMutation()
       )   
 >>> opt.fit(X_train, y_train)
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:37: UserWarning: [18:27:13] Population Decline Warning: The current population size is smaller than previous. This might lead to premature convergence.
-  warnings.warn(f'[{current_time}] Population Decline Warning: The current population size is smaller than previous. This might lead to premature convergence.')
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:27:38] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:27:58] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:28:39] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:29:06] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:29:39] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:30:09] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:30:37] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:31:03] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
-C:\Users\Hindy\PycharmProjects\test123\lib\site-packages\evolearn\optimization\environment.py:118: UserWarning: [18:31:03] Elitism Failed Warning: Elites selected from this generation is 0. Number of elite is automatically set to 1. Please consider increase "pct".
-  warnings.warn(
 Max Fitness: -2023.200579609583
 {'max_depth': 5, 'n_estimators': 561, 'criterion': 'absolute_error'}
 
