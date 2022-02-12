@@ -97,7 +97,7 @@ Reproduction
 |
 KPointCrossover
 ---------------
-k: int
+* ``k``: int
 * ``c_pt``: int, str [default='random']
 
 
