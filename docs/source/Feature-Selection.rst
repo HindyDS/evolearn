@@ -162,7 +162,6 @@ ShiftMutation
 |
 Environment
 ===========
-|
 AdaptiveReproduction
 --------------------
 * ``pop_cap``: int [default=None]
