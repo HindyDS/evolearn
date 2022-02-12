@@ -3,7 +3,6 @@ evolearn API
 
 .. currentmodule:: initialization
 
-
 ------------------
 
 .. autosummary::
@@ -12,5 +11,8 @@ evolearn API
     Genes
    
 .. currentmodule:: evaluation  
+
+
+------------------
     
     FitnessFunction
