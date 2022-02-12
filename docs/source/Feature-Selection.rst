@@ -39,7 +39,7 @@ FitnessFunction
           - An object to be used as a cross-validation generator.
           - An iterable yielding train, test splits.
           
-For integer/None inputs, if the estimator is a classifier and ``y`` iseither binary or multiclass, :class:`StratifiedKFold` is used. In all other cases, :class:`KFold` is used.
+For integer/None inputs, if the estimator is a classifier and ``y`` is either binary or multiclass, :class:`StratifiedKFold` is used. In all other cases, :class:`KFold` is used.
   
 * ``scoring``: str
 
