@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
+project = 'evolearn'
+copyright = '2022, Hindy Yuen Shing Yan'
 author = 'Graziella'
 
 release = '0.1'
-version = '0.1.0'
+version = '1.0.5'
 
 # -- General configuration
 
