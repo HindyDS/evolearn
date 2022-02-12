@@ -4,7 +4,7 @@
 
 project = 'evolearn'
 copyright = '2022, Hindy Yuen Shing Yan'
-author = 'Graziella'
+author = 'Hindy Yuen Shing Yan'
 
 release = '0.1'
 version = '1.0.5'
