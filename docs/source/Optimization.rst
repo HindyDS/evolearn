@@ -1,12 +1,23 @@
 evolearn API
 ================
 
-.. currentmodule:: initialization
+Initialization
+---------------
 
-initialization
-------------------
+Evaluation
+----------
 
-.. autosummary::
-    :toctree: Optimization/
+Selection
+---------
 
-    Genes
+Mating
+------
+
+Reproduction
+------------
+
+Mutation
+--------
+
+Environment
+-----------
