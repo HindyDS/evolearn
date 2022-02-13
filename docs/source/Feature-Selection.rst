@@ -8,7 +8,62 @@ Genetic Feature Selection
 
 GeneticFeatureSelectionCV
 =========================
+* ``n_gen``: int
 
+  - Maximum number of generation (or loop) GenesSearchCV will run.
+  
+* ``initialization_fn``
+
+  - Class object to generate solution candidates.
+  
+* ``fitness_fn``
+
+  - Class object to evalute the fitness of solution candidates.
+  
+* ``selection_fn``
+
+  - can either be:
+     - optimization.selection.RankSelection,
+          - optimization.selection.RouletteWheelSelection,
+          - optimization.selection.SteadyStateSelection,
+          - optimization.selection.TournamentSelection,
+          - optimization.selection.StochasticUniversalSampling,
+          - optimization.selection.BoltzmannSelection
+
+          Class object to evalute the fitness of solution candidates.
+  
+* ``mating_fn`` 
+
+  - Class object to pair the solution candidates for reproduction.
+  
+* ``reproduction_fn``
+
+  - can either be
+       - optimization.reproduction.KPointCrossover,
+       - optimization.reproduction.LinearCombinationCrossover,
+       - optimization.reproduction.FitnessProportionateAverage
+
+       Class object to reproduce child population.
+  
+* ``mutation_fn``
+
+  - can either be
+       - optimization.mutation.Boundary,
+       - optimization.mutation.Shrink
+       
+       Class object to mutate the child population.
+  
+* ``adaptive_population``=None
+
+  - Class object to adaptively change the mating rate of the mating_fn.
+  
+* ``elitism``=None
+
+  - Class object to perform elites selection, ace comparison and elites' traits induction.
+  
+* ``adaptive_mutation``=None
+
+  - Class object to adaptively change the mutation probaility of the mutation_fn.
 
 Initialization
 --------------
