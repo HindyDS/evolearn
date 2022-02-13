@@ -2,10 +2,12 @@
    :maxdepth: 10
    :caption: Contents:
 
+********************
 Genetic Optimization
-====================
+********************
+
 GenesSearchCV
--------------
+=============
 * ``n_gen``: int
 
   - Maximum number of generation (or loop) GenesSearchCV will run.
