@@ -22,7 +22,9 @@ GeneticFeatureSelectionCV
   
 * ``selection_fn``
 
-  - can either be:
+  - Class object to evalute the fitness of solution candidates.
+
+  - Can either be:
      - optimization.selection.RankSelection,
           - optimization.selection.RouletteWheelSelection,
           - optimization.selection.SteadyStateSelection,
@@ -30,7 +32,7 @@ GeneticFeatureSelectionCV
           - optimization.selection.StochasticUniversalSampling,
           - optimization.selection.BoltzmannSelection
 
-          Class object to evalute the fitness of solution candidates.
+          
   
 * ``mating_fn`` 
 
@@ -38,20 +40,24 @@ GeneticFeatureSelectionCV
   
 * ``reproduction_fn``
 
-  - can either be
+  - Class object to reproduce child population.
+
+  - Can either be
        - optimization.reproduction.KPointCrossover,
        - optimization.reproduction.LinearCombinationCrossover,
        - optimization.reproduction.FitnessProportionateAverage
 
-       Class object to reproduce child population.
+       
   
 * ``mutation_fn``
 
-  - can either be
+  - Class object to mutate the child population.
+
+  - Can either be
        - optimization.mutation.Boundary,
        - optimization.mutation.Shrink
        
-       Class object to mutate the child population.
+       
   
 * ``adaptive_population``=None
 
