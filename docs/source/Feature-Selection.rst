@@ -11,7 +11,7 @@ GeneticFeatureSelectionCV
 
 
 Initialization
-==============
+--------------
 Genes
 -----
 * ``search_space``: dict 
@@ -24,7 +24,7 @@ Genes
 
 
 Evaluation
-==========
+----------
 FitnessFunction
 ---------------
 * ``estimator``: BaseEstimator
@@ -47,7 +47,7 @@ For integer/None inputs, if the estimator is a classifier and ``y`` is either bi
 
 
 Selection
-=========
+---------
 RankSelection
 -------------
 * ``pct_survivors``: int, float
@@ -108,7 +108,7 @@ BoltzmannSelection
 
 
 Mating
-======
+------
 MatingFunction
 --------------
 * ``pop_ratio``: int, float [default=1]
@@ -121,7 +121,7 @@ MatingFunction
   
 |
 Reproduction
-============
+------------
 KPointCrossover
 ---------------
 * ``k``: int
@@ -135,7 +135,7 @@ KPointCrossover
 
 |
 Mutation
-========
+--------
 BitStringMutation
 -----------------
 * ``epsilon``: float [default=.15]
@@ -161,7 +161,7 @@ ShiftMutation
 
 |
 Environment
-===========
+-----------
 AdaptiveReproduction
 --------------------
 * ``pop_cap``: int [default=None]
