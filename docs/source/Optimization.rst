@@ -78,7 +78,7 @@ Genes
 
 |
 Evaluation
-==========
+----------
 FitnessFunction
 ---------------
 * ``estimator``: BaseEstimator
@@ -102,7 +102,7 @@ For integer/None inputs, if the estimator is a classifier and ``y`` is either bi
 
 |
 Selection
-=========
+---------
 RankSelection
 -------------
 * ``pct_survivors``: int, float
@@ -164,7 +164,7 @@ BoltzmannSelection
 
 |
 Mating
-======
+------
 MatingFunction
 --------------
 * ``pop_ratio``: int, float [default=1]
@@ -217,7 +217,7 @@ Shrink
 
 |
 Environment
-===========
+-----------
 AdaptiveReproduction
 --------------------
 * ``pop_cap``: int [default=None]
