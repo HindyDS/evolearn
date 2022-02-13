@@ -2,9 +2,9 @@
    :maxdepth: 10
    :caption: Contents:
 
-********************
-Genetic Optimization
-********************
+*********************
+Hyperparameter Tuning
+*********************
 
 GenesSearchCV
 =============
