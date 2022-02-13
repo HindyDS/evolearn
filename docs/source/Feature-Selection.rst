@@ -2,9 +2,9 @@
    :maxdepth: 10
    :caption: Contents:
 
-*************************
-Genetic Feature Selection
-*************************
+*****************
+Feature Selection
+*****************
 
 GeneticFeatureSelectionCV
 =========================
