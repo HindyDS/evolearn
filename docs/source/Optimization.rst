@@ -172,7 +172,7 @@ Mating
 ------
 MatingFunction
 --------------
-* ``pop_ratio``: int, float [default=1]
+* ``cr_proba``: int, float [default=1]
 
   - Percentage of survived population. Determines how many couples are paired during mating.
   
