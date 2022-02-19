@@ -12,7 +12,7 @@ To use evolearn, first install it using pip:
 
    (.venv) $ pip install evolearn
 
-Genetic Optimization CV
+Genetic Hyperparameter Tuning CV
 ----------------
 
 To perform hyperparameter tuning using genetic algoritm,
