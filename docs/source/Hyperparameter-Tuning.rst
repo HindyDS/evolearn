@@ -25,12 +25,12 @@ GenesSearchCV
   - Class object to evalute the fitness of solution candidates. 
   
   - Can either be:
-     - optimization.selection.RankSelection,
-          - optimization.selection.RouletteWheelSelection,
-          - optimization.selection.SteadyStateSelection,
-          - optimization.selection.TournamentSelection,
-          - optimization.selection.StochasticUniversalSampling,
-          - optimization.selection.BoltzmannSelection
+     - hyperparameter_tuning.selection.RankSelection,
+          - hyperparameter_tuning.selection.RouletteWheelSelection,
+          - hyperparameter_tuning.selection.SteadyStateSelection,
+          - hyperparameter_tuning.selection.TournamentSelection,
+          - hyperparameter_tuning.selection.StochasticUniversalSampling,
+          - hyperparameter_tuning.selection.BoltzmannSelection
   
   
 * ``mating_fn`` 
@@ -42,9 +42,9 @@ GenesSearchCV
   - Class object to reproduce child population.
   
   - Can either be
-       - optimization.reproduction.KPointCrossover,
-       - optimization.reproduction.LinearCombinationCrossover,
-       - optimization.reproduction.FitnessProportionateAverage
+       - hyperparameter_tuning.reproduction.KPointCrossover,
+       - hyperparameter_tuning.reproduction.LinearCombinationCrossover,
+       - hyperparameter_tuning.reproduction.FitnessProportionateAverage
 
        
   
@@ -53,8 +53,8 @@ GenesSearchCV
   - Class object to mutate the child population.
   
   - Can either be
-       - optimization.mutation.Boundary,
-       - optimization.mutation.Shrink
+       - hyperparameter_tuning.mutation.Boundary,
+       - hyperparameter_tuning.mutation.Shrink
           
 * ``adaptive_population``=None
 
