@@ -10,6 +10,6 @@
    :caption: Contents:
    
    Quick Start <Quick-Start>
-   Optimization <Optimization>
+   Hyperparameter Tuning <Hyperparameter-Tuning>
    Feature Selection <Feature-Selection>
    Warnings <Warnings>
